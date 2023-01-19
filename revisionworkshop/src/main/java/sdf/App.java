@@ -5,6 +5,7 @@ import java.io.File;
 import java.io.FileOutputStream;
 import java.io.FileWriter;
 import java.io.IOException;
+import java.util.List;
 
 public final class App {
    
@@ -58,6 +59,32 @@ public final class App {
         //Clear the output string
         fos.flush();
         fos.close();
+
+
+
+
+// Writing CSV files 
+        String fileEmployee = "employee.txt";
+
+        // Create a file in the directory created above
+        File newEmployeeFile = new File(dirPath + File.separator + fileEmployee);
+        boolean isEmployeeFileCreated = newEmployeeFile.createNewFile();
+
+        if (isEmployeeFileCreated)
+            System.out.println("New Employee file " + fileName + " created");
+        else
+            System.out.println("File " + fileName + " already exists");
+
+        CSVWriter csvw = new CSVWriter();
+        List<Employee> employeeList = csvw.generateEmployees(); //employee generate to a list of objects
+        csvw.writeToCSV(employeeList, dirPath + File.separator + fileEmployee);
+
+// Reading CSV files 
+
+        CSVReader csvr = new CSVReader();
+        csvr.readCSV();
+
+
 
     
         // ArraySortExample as = new ArraySortExample();

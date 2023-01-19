@@ -1,5 +1,6 @@
 package sdf;
 
+import java.io.FileWriter;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Collections;
@@ -55,6 +56,8 @@ public class CollectionSortExample {
         employees.add(emp2);
         employees.add(emp3);
 
+        
+
         // Print out employees list before sorting
         System.out.println("employees before sorting: " + employees);
 
@@ -71,4 +74,6 @@ public class CollectionSortExample {
         System.out.println("Filtered employees: " + filteredEmployees);
 
     }
+
+    
 }

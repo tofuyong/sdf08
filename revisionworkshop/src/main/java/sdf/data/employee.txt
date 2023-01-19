@@ -1,0 +1,4 @@
+staffNo,fullName,department,role,emailAddress,salary
+12345,Darryl Ng,SS,darrylng@nus.edu.sg,Lecturer,20000
+23456,Andrea Yong,FNN,andreay@nus.edu.sg,Teacher,30000
+34567,Lim Moy Hoon,Management,lmh@nus.edu.sg,Princpal,40000
