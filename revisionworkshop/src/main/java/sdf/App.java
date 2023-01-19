@@ -4,12 +4,17 @@ public final class App {
    
     public static void main(String[] args) {
         
-        ArraySort as = new ArraySort();
+        ArraySortExample as = new ArraySortExample();
         as.example();
-        
-        CollectionSort cs = new CollectionSort();
+
+        CollectionSortExample cs = new CollectionSortExample();
         cs.example01();
         cs.example02();
         cs.example03();
+
+        HashMapExample hme = new HashMapExample();
+        hme.example();
+
+        
     }
 }

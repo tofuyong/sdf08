@@ -3,7 +3,7 @@ package sdf;
 import java.util.Arrays;
 import java.util.Collections;
 
-public class ArraySort {
+public class ArraySortExample {
 
     public void example(){
         // custom array with data (name)

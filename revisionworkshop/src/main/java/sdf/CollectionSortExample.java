@@ -6,7 +6,7 @@ import java.util.Collections;
 import java.util.Comparator;
 import java.util.List;
 
-public class CollectionSort {
+public class CollectionSortExample {
     
     // public static void main(String[] args) {
 
